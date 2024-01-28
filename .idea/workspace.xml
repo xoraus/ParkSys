@@ -5,21 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e2a5066-d04c-4900-b1aa-653b2c47839d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Gate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/GateType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Invoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/ParkingFloor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/ParkingLot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/ParkingSpot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/ParkingSpotStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/PaymentType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/VehicleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/TicketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dtos/IssueTicketRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dtos/IssueTicketResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repositories/GateRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/TicketService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ParkSys.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ParkSys.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Gate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Gate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +27,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/models/ParkingLot.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -67,6 +62,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.14482759",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -90,11 +86,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706011703024</updated>
-      <workItem from="1706011705325" duration="1190000" />
+      <workItem from="1706011705325" duration="4050000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
