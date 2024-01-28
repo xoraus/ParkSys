@@ -3,10 +3,9 @@ package models;
 import lombok.Getter;
 import lombok.Setter;
 
-@Getter
 @Setter
+@Getter
 public class Operator {
     private String empId;
     private String name;
-
 }
